@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        {% block header %}
+        <h1> Главная страница </h1>
+        {% endblock %}
+    </header>
+    <nav>
+        {% block menu %}
+        <ul>
+            <li> <a href="/"><h2>главная</h2></a></li>
+            <li><a href="/shop"><h2>магазин</h2></a></li>
+            <li><a href="/shopping_cart"><h2>корзина</h2></a></li>
+            <li><a href="/registration"><h2>регистрация</h2></a> </li>
+        </ul>
+        {% endblock %}
+    </nav>
+    <main>
+        {%block content%}
+        <p> контента нет</p>
+        {%endblock%}
+    </main>
+</body>
+</html>

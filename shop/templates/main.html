@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends 'menu.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my sait</title>
+</head>
+<body>
+    {% block header%}
+        {{ block.super }}
+    {% endblock %}
+    {% block menu%}
+        {{ block.super}}
+    {% endblock %}
+    {% block content%}
+    {% endblock%}
+</body>
+</html>
