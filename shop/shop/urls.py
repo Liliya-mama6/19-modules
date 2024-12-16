@@ -25,4 +25,5 @@ urlpatterns = [
     path('', main),
     path('shop/', shop),
     path('shopping_cart/', shopping_cart),
+    path('platform/news/', news),
 ]

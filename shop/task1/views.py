@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import *
+from django.core.paginator import Paginator
 from django.http import HttpResponse
 
 
@@ -51,3 +52,11 @@ def main(request):
 
 def shopping_cart(request):
     return render(request, 'shopping_cart.html')
+
+
+def news(request):
+    news = News.objects.all()
+    paginator = Paginator(news, 3)
+    num = request.GET.get('page')
+    new = paginator.get_page(num)
+    return render(request, 'news.html', {'news': new})

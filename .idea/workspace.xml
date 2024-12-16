@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3b9fd7-6e4c-4de2-ba90-04789bc1cbc1" name="Changes" comment="second tryied">
-      <change afterPath="$PROJECT_DIR$/shop/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/templates/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/templates/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/templates/shopping_cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject78.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject78.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/task1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/task1/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a3b9fd7-6e4c-4de2-ba90-04789bc1cbc1" name="Changes" comment="all in one" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -120,13 +115,41 @@
       <option name="project" value="LOCAL" />
       <updated>1734011034083</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all in one">
+      <option name="closed" value="true" />
+      <created>1734177109509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734177109510</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all in one">
+      <option name="closed" value="true" />
+      <created>1734194875600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734194875600</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="19 moduls" />
     <MESSAGE value="second try" />
     <MESSAGE value="second tryied" />
-    <option name="LAST_COMMIT_MESSAGE" value="second tryied" />
+    <MESSAGE value="all in one" />
+    <option name="LAST_COMMIT_MESSAGE" value="all in one" />
   </component>
 </project>

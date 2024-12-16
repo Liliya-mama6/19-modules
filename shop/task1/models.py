@@ -18,3 +18,9 @@ class Game(models.Model):
     buyer = models.ManyToManyField(Buyer, related_name='games')
     def __str__(self):
         return self.title
+
+
+class News(models.Model):
+    title = models.CharField(max_length=50)
+    content = models.TextField()
+    date = models.DateTimeField(auto_now_add=True)
