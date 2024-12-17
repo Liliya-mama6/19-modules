@@ -24,3 +24,7 @@ class News(models.Model):
     title = models.CharField(max_length=50)
     content = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
+
+
+class Test_for_postgres(models.Model):
+    test =  models.TextField()

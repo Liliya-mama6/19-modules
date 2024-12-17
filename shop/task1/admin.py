@@ -20,4 +20,4 @@ class GameAdmin(admin.ModelAdmin):
     list_per_page = 20
 
 
-admin.site.register(News)
+admin.site.register(Test_for_postgres)
